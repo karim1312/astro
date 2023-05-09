@@ -1,0 +1,151 @@
+body {
+	background-color: #1A2B44;
+	font-family: Dubai;
+	color: #F7EDDF;
+	margin: 0px;
+	overflow-x: hidden;
+}
+
+h2 {
+	padding-right: 3px;
+}
+dt {
+	font-size:25px;
+	font-family: Dubai;
+	font-weight: bold;
+}
+
+dd {
+	font-size: 20px;
+	font-family: Dubai;
+}
+
+ul {
+	font-size:25px;
+	margin: 0;
+	position: relative;
+	top: 0;
+	width: 100%;
+	overflow:hidden;
+}
+
+ol {
+	font-size:25px;
+	margin: 0;
+	position: relative;
+	top: 0;
+	width: 100%;
+	overflow:hidden;
+}
+
+#nav {
+	top:0;
+	left:0;
+	list-style-type: none;
+	padding-left: 0.5%;
+	overflow: hidden;
+	background-color: #240f4f;
+	position: relative;
+}
+
+#nav li {
+	float: left;
+}
+
+#nav li a {
+	color: #F7EDDF;
+	display: block;
+	padding: 8px; 
+	text-align: center; 
+	text-decoration: none;
+}
+
+#nav li a:hover{
+	background-color: #5B6A91;
+}
+
+
+.active {
+	background-color: #8B2635;
+	pointer-events: none;
+}
+
+.box0 {
+	margin-top:0px;
+	width: 100%;
+	background-color: #3B2D5F;
+	padding-left: 0.5%;
+	overflow:hidden;
+	border-bottom: 1px solid #240f4f;
+	font-size: 20px;
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
+.box1 {
+	margin-top:0px;
+	border: 0px solid;
+	width: 100%;
+	background-color: #1A2B44;
+	padding-left: 0.5%;
+	padding-right: 1%;
+	overflow:hidden;
+}
+
+.box2 {
+	margin-top:0px;
+	border: 0px solid;
+	width: 100%;
+	background-color: #5B6A91;
+	padding-left: 0.5%;
+	padding-right: 1%;
+	overflow:hidden;
+}
+
+.box3 {
+	border: 0px solid;
+	width: 100%;
+	background-color: #8B2635;
+	padding-left: 0.5%;
+	overflow:hidden;
+}
+
+.box4 {
+	margin-top:0px;
+	width: 100%;
+	background-color: #3B2D5F;
+	padding-left: 0.5%;
+	border-bottom: 0px solid #240f4f;
+	font-size: 20px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.box4 a {
+	color: white;
+	text-decoration: none;
+}
+
+.box4 ul {
+	list-style-type: none;
+}
+
+img {
+	overflow:hidden;
+}
+
+.diagr {
+	float: right;
+	padding-right:25px;
+}
+
+.diagrb {
+	float: right;
+	border: 4px solid #D4A6B8;
+	margin: 10px 25px 10px 10px;
+}
+
+.diaglb {
+	float: left;
+	border: 4px solid #D4A6B8;
+	margin: 10px 10px 10px 0px;
+}
