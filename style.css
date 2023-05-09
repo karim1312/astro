@@ -3,7 +3,7 @@
 body {
 	background-color: #1A2B44;
 	font-family: Dubai;
-	color: #F7EDDF;
+	color: white;
 	margin: 0px;
 	overflow-x: hidden;
 }
@@ -55,7 +55,7 @@ ol {
 }
 
 #nav li a {
-	color: #F7EDDF;
+	color: white;
 	display: block;
 	padding: 8px; 
 	text-align: center; 
