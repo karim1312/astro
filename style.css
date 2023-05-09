@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
 body {
 	background-color: #1A2B44;
 	font-family: Dubai;
@@ -62,6 +64,7 @@ ol {
 
 #nav li a:hover{
 	background-color: #5B6A91;
+	transition: all 0.6s ease 0s;
 }
 
 
@@ -78,7 +81,7 @@ ol {
 	overflow:hidden;
 	border-bottom: 1px solid #240f4f;
 	font-size: 20px;
-	font-family: 'Trebuchet MS', sans-serif;
+	font-family: 'Oswald', sans-serif;
 }
 
 .box1 {
@@ -148,4 +151,9 @@ img {
 	float: left;
 	border: 4px solid #D4A6B8;
 	margin: 10px 10px 10px 0px;
+}
+
+.home {
+	text-decoration: none;
+	cursor: pointer;
 }
